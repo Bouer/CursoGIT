@@ -1,4 +1,7 @@
 program hello
-        write *, "Hello World"
+        character (20): myname
+        write *, "Ingrese Nombre"
+        read *, myname
+        write *, "Hello ",myname
 
 end program hello
